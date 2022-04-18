@@ -1,0 +1,204 @@
+body {
+    font-family: Roboto, Arial;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+/*----------------------------------------------- Section 1 (Main Headliner) -------------------------------------------------------------------*/
+
+.main-headliner {
+    background-color: #1F2937;
+    margin-top: 0;
+}
+
+.top-line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.top-line h1 {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+
+.header-links {
+    color: #E5E7EB;
+    font-size: 18px;
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    gap: 18px;
+}
+
+.dual-container {
+    display:flex;
+    justify-content: center;
+    margin: 50px;
+    gap: 30px;
+}
+
+.left-sign-up-form {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+.main-text {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bold;
+}
+ .sub-text {
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: normal;
+ }
+
+ .left-sign-up-form button {
+    border: none;
+    border-radius: 6px;
+    margin-top: 10px;
+    background-color: rgb(38, 143, 235);
+    padding: 10px 30px 10px;
+    color: white;
+}
+
+ .right-image {
+    width: 450px;
+    background-color: gray;
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+ }
+
+ /*----------------------------------------------------- Section 2 (Information) ---------------------------------------------------------------*/
+
+ .information-section {
+    text-align: center;
+}
+
+.title {
+    font-size: 32px;
+    color: #1F2937;
+    font-weight: bolder;
+    margin: 35px;
+}
+
+ .info-container {
+     display: flex;
+     justify-content: center;
+     gap: 60px;
+     margin-bottom: 75px;
+
+ }
+
+ .info-item img {
+     width: 120px;
+     height: 120px;
+ }
+
+ .info-item p {
+    color: rgb(134, 134, 134);
+    font-size: 12px;
+    font-weight: normal;
+    flex-wrap: wrap;
+    width: 120px;
+    margin: 5px;
+ }
+
+/*---------------------------------------------------- Section 3 (Quote Section) --------------------------------------------------------------------- */
+
+ .quote-section {
+     background-color: #E5E7EB;
+ }
+
+ .quote-box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 75px;
+ }
+ .statement {
+     width: 700px;
+     margin: 5px;
+     font-style: italic;
+     font-size: 36px;
+     color: #1F2937;
+ }
+ 
+ .signature {
+     width: 700px;
+     margin: 5px;
+     font-size: 20px;
+     text-align: right;
+     font-weight: bold;
+ }
+ /*---------------------------------------------------Section 4 (Sign-Up) --------------------------------------------------------------*/
+ .sign-up-section {
+     background-color: white;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .sign-up-box {
+     width: 800px;
+     background-color: #3882F6;
+     border-radius: 6px;
+     margin: 60px;
+     padding-left: 60px;
+     padding-right: 60px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ .sign-up-text {
+     display: flex;
+     flex-direction: column;
+     margin: 20px;
+ }
+
+ .main-statement {
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: bolder;
+ }
+
+ .sub-statement {
+    color: #c6c6c8;
+    font-size: 16px;
+    font-weight: lighter;
+ }
+
+ .sign-up-box button {
+    border-style: solid;
+    border-color: white;
+    border-radius: 6px;
+    margin: 40px;
+    background-color: #3882F6;
+    padding: 5px 25px 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+ }
+
+/*----------------------------------------------------------- Footer --------------------------------------------------------------*/
+.footer {
+    background-color: #1F2937;
+    Padding: 35px;
+}
+
+.footer p {
+    color: white;
+    text-align: center;
+}
