@@ -1,6 +1,6 @@
 body {
+    background-color: #1F2937;
     font-family: Roboto, Arial;
-    margin: 0;
 }
 
 p {
@@ -9,16 +9,12 @@ p {
 
 /*----------------------------------------------- Section 1 (Main Headliner) -------------------------------------------------------------------*/
 
-.main-headliner {
-    background-color: #1F2937;
-    margin-top: 0;
-}
-
 .top-line {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px;
+    margin-left: 230px;
+    margin-right: 230px;
 }
 
 .top-line h1 {
@@ -83,13 +79,16 @@ p {
 
  .information-section {
     text-align: center;
+    background-color: white;
+    padding-bottom: 2px;
 }
 
 .title {
     font-size: 32px;
     color: #1F2937;
     font-weight: bolder;
-    margin: 35px;
+    padding-top: 30px;;
+    margin-bottom: 35px;
 }
 
  .info-container {
@@ -194,7 +193,6 @@ p {
 
 /*----------------------------------------------------------- Footer --------------------------------------------------------------*/
 .footer {
-    background-color: #1F2937;
     Padding: 35px;
 }
 
